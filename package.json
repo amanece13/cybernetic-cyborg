@@ -1,0 +1,122 @@
+{
+  "author": {
+    "name": "Ajay",
+    "url": ""
+  },
+  "license": "MIT",
+  "name": "cybermetic-cyborg",
+  "version": "1.0.1",
+  "description": "Non Fungible Tokens Marketplace",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.17",
+    "axios": "^0.24.0",
+    "cloudinary": "^1.27.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "firebase": "^9.6.1",
+    "firebase-admin": "^10.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "npm-run-all": "^4.1.5",
+    "react": "^17.0.2",
+    "react-device-detect": "^2.1.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "slugify": "^1.6.4",
+    "tailwindcss": "^2.2.7"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "npm-run-all --parallel watch:client watch:server",
+    "watch:client": "webpack serve --mode=development --config config/webpack.dev.js --hot",
+    "watch:server": "nodemon --inspect server/index.js",
+    "build": "NODE_ENV=production webpack --config config/webpack.prod.js",
+    "build-staging": "NODE_ENV=production webpack --config config/webpack.stage.js",
+    "prettify": "yarn prettier \"**/*.*(js|jsx)\" --ignore-path=.prettierignore --write",
+    "lint": "eslint src --ext .js,.jsx && yarn prettify",
+    "lint-fix": "eslint src --ext .js,.jsx --fix && yarn prettify",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint-staged --verbose"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "eslint --fix"
+    ]
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "@headlessui/react": "^1.4.2",
+    "@heroicons/react": "^1.0.5",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.4",
+    "@svgr/webpack": "^6.1.2",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "autoprefixer": "^10.3.1",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^27.0.6",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "*",
+    "copy-webpack-plugin": "^9.0.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.2.0",
+    "css-minimizer-webpack-plugin": "^3.0.2",
+    "dotenv-webpack": "^7.0.3",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "husky": "^7.0.1",
+    "jest": "^27.0.6",
+    "lint-staged": "^11.1.2",
+    "mini-css-extract-plugin": "^2.2.0",
+    "mongodb": "^4.2.1",
+    "node-sass": "^6.0.1",
+    "postcss": "^8.3.6",
+    "postcss-import": "^14.0.2",
+    "postcss-loader": "^6.1.1",
+    "prettier": "^2.3.2",
+    "process": "^0.11.10",
+    "react-dev-utils": "^12.0.0",
+    "react-hot-loader": "^4.13.0",
+    "react-refresh": "^0.11.0",
+    "react-router-dom": "^6.1.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "terser-webpack-plugin": "^5.1.4",
+    "webpack": "^5.49.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^4.6.0",
+    "webpack-merge": "^5.8.0"
+  }
+}
