@@ -20,7 +20,7 @@ const App = () => {
   const isMobile = width < 800;
   const Layout = isMobile ? AppMobile : AppDesktop
   return (
-    <Layout />
+    <Layout width={width}/>
   )
 }
 

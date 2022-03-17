@@ -2,7 +2,7 @@ import React from 'react';
 import './app.styles.scss'
 
 
-const AppMobile = () => {
+const AppMobile = ({ }) => {
   return (
     <div className="AppMobile">
       <div className='header'>
