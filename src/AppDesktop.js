@@ -11,13 +11,13 @@ const App = ({ width }) => {
   return (
     <div className="App">
       <div className={'leftContainer'}>
-        <img src={'https://imagedelivery.net/ml6iqrdpce69WkTk_gvNdQ/340c5114-f240-4aa7-08d8-dc1ac3eb5f00/public'}
+        <img src={'https://imagedelivery.net/ml6iqrdpce69WkTk_gvNdQ/d84a1615-5597-4499-e744-0c15b012d400/public'}
           alt={'banner'} className={'leftBannerImage'} />
         <img src={'https://imagedelivery.net/ml6iqrdpce69WkTk_gvNdQ/b4d43007-838e-409a-b2f8-0d872b553500/public'}
           alt={'Cybernetic Logo'} className={'cyLogo'} />
-        <img src={'https://imagedelivery.net/ml6iqrdpce69WkTk_gvNdQ/1c6c5d12-0e2a-4e8f-555c-12044d8a9200/public'}
+        <img src={'https://imagedelivery.net/ml6iqrdpce69WkTk_gvNdQ/e2e513dc-ae6e-4eff-7944-6dccd9d15b00/public'}
           salt={'Coming Soon Logo'} className={'comingSoon'} />
-        <a href='https://discord.gg/fTdxAFTusK'><img src={'https://imagedelivery.net/ml6iqrdpce69WkTk_gvNdQ/0a79353c-bfee-46c8-9e01-0d5a5d17b200/public'}
+        <a href='https://discord.gg/fTdxAFTusK'><img src={'https://imagedelivery.net/ml6iqrdpce69WkTk_gvNdQ/b4d3f2d0-c28a-43ac-7592-5210d18ae100/public'}
           salt={'Join Discord Image'} className={'join-discord'} /></a>
       </div>
       <div className={'rightContainer'}>
