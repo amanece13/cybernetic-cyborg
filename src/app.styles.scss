@@ -223,15 +223,24 @@
 }
 
 .appcontainer {
-  background-image: url('https://imagedelivery.net/ml6iqrdpce69WkTk_gvNdQ/5c700b37-c1a5-4c9a-784e-907dad93a100/public');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 50px 0;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: center;
+}
+
+.main-container-img {
+  width: 100%;
+}
+
+.app-container {
+  position: absolute;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 700px;
 }
 
 .apptimersection {
