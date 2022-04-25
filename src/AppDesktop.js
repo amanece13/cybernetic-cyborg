@@ -67,8 +67,8 @@ const presaleData = [{
   text: 'Free Cyberoids for Daily Tasks and Invite'
 },
 {
-  img: 'https://imagedelivery.net/ml6iqrdpce69WkTk_gvNdQ/a9b4f8a8-0038-42a7-44a7-6c6a347cfd00/public',
-  text: 'Chance to be on our Core Team'
+  img: 'https://imagedelivery.net/ml6iqrdpce69WkTk_gvNdQ/11252dcf-1389-4194-b71b-d35da405b800/public',
+  text: 'Chance to be a Genesis Member'
 }]
 
 const roadMapData = [{

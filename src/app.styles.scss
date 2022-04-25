@@ -193,9 +193,9 @@
 .intro-head {
   color: #fff;
   text-align: center;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 300;
-  max-width: 730px;
+  max-width: 930px;
   margin-top: 22px;
   letter-spacing: 1px;
 }
@@ -244,7 +244,7 @@
 }
 
 .apptimersection {
-  background: url('https://imagedelivery.net/ml6iqrdpce69WkTk_gvNdQ/c1a38b8e-b768-4604-445f-fdf319d14d00/public') no-repeat center center;
+  background: url('https://imagedelivery.net/ml6iqrdpce69WkTk_gvNdQ/73a786f8-06ad-48b8-b72a-3610aa3f2600/public') no-repeat center center;
   background-size: cover;
   position: relative;
   height: 100vh;
@@ -312,17 +312,17 @@
 .community-enablers {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 50px;
 
   :last-child {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 5;
   }
 }
 
 .com-enabler {
   text-align: center;
-  flex-basis: 30%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -342,7 +342,6 @@
 }
 
 .intro-calling-section {
-  
   background: url('https://imagedelivery.net/ml6iqrdpce69WkTk_gvNdQ/a88ea7c1-92d5-4560-f87d-0c374efa5c00/public') no-repeat center center ;
   background-size: cover;
   height: 630px;
@@ -466,6 +465,10 @@ h1 {
 }
 
 .pre-sale {
+  background: url('https://imagedelivery.net/ml6iqrdpce69WkTk_gvNdQ/8860ebc1-6eb5-439e-7cfd-b6c072f6bd00/public');
+  background-position: -45% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
   .header-section {
     width: 700px;
     margin: 0 auto;
