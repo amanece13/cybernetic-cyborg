@@ -231,6 +231,7 @@
 
 .main-container-img {
   width: 100%;
+  height: 950px;
 }
 
 .app-container {
@@ -242,6 +243,7 @@
   align-items: center;
   height: 700px;
 }
+
 
 .apptimersection {
   background: url('https://imagedelivery.net/ml6iqrdpce69WkTk_gvNdQ/73a786f8-06ad-48b8-b72a-3610aa3f2600/public') no-repeat center center;
@@ -674,3 +676,171 @@ h1 {
   position: relative;
   top: -10px;
 }
+
+@media only screen 
+  and (max-device-width: 900px) {
+    .main-container-img {
+      width: 100%;
+      height: 850px;
+    }
+
+    .intro-head {
+      font-size: 13px;
+      width: 90%;
+      margin: 0 auto;
+      margin-top: 16px;
+    }
+
+    .headline {
+      width: 90%;
+      margin: 0 auto;
+      font-size: 24px;
+    }
+
+    .company-tag {
+      font-size: 48px;
+      line-height: 48px;
+      margin-top: 20px;
+    }
+
+    .app-container {
+      height: 600px;
+    }
+
+    .intro-panes {
+      min-width: 430px;
+    
+      img {
+        width: 200px;
+        height: auto;
+      }
+    }
+
+    .community-enablers {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .intro-calling-section {
+      height: auto;
+    }
+
+    .container-calling {
+      display: unset;
+      position: relative;
+      height: 330px;
+
+      .container-call-img {
+        position: absolute;
+        width: 100px;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+      }
+
+      .our-calling {
+        height: 190px;
+        margin: 0 auto;
+        margin-top: 60px;
+
+        h1 {
+          font-size: 28px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .benefits {
+      h1 {
+        min-width: 400px;
+      }
+      .ownership-section {
+        display: flex;
+        flex-direction: column;
+        
+        .ownership-privilege {
+          justify-content: center;
+          margin-top: 30px;
+        }
+
+        img {
+          height: unset;
+        }
+
+        .ownership-keys {
+          img {
+            height: 36px;
+          }
+        }
+      }
+    }
+
+    .pre-sale {
+
+      .header-section {
+        width: unset;
+        padding: 16px;
+        width: 75%;
+        margin: 0 auto;
+
+        h1 {
+          font-size: 28px;
+          line-height: 28px;
+        }
+
+        h2 {
+          font-size: 36px;
+          line-height: 36px;
+        }
+      }
+
+      .pre-sale-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    .road-map {
+      position: relative;
+      color: black;
+      width: unset;
+
+      .roadmap-content {
+        width: 75%;
+      }
+    }
+}
+
+@media only screen 
+  and (max-device-width: 568px) {
+    .road-map {
+      margin-top: 1320px;
+    }
+
+    .footer-text {
+      font-size: 11px;
+    }
+  }
+
+  @media only screen 
+  and (max-device-width: 480px) {
+    .road-map {
+      margin-top: 1420px;
+    }
+  }
+
+  @media only screen 
+  and (max-device-width: 420px) {
+    .road-map {
+      margin-top: 1600px;
+
+      h1 {
+        font-size: 36px;
+      }
+    }
+  }

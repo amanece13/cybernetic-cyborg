@@ -18,9 +18,9 @@ function useWindowSize() {
 const App = () => {
   const [width, height] = useWindowSize();
   const isMobile = width < 800;
-  const Layout = isMobile ? AppMobile : AppDesktop
+  // const Layout = isMobile ? AppMobile : AppDesktop
   return (
-    <Layout width={width}/>
+    <AppDesktop width={width} isMobile={isMobile} />
   )
 }
 

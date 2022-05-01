@@ -142,7 +142,7 @@ const App = ({ width }) => {
       </div>
       <div className='intro-calling-section'>
         <div className='container-calling'>
-          <img src="https://imagedelivery.net/ml6iqrdpce69WkTk_gvNdQ/3e2fd716-d555-4c25-4696-c993c8559600/public" />
+          <img className="container-call-img" src="https://imagedelivery.net/ml6iqrdpce69WkTk_gvNdQ/3e2fd716-d555-4c25-4696-c993c8559600/public" />
           <div className='our-calling'>
             <h1>Our Calling</h1>
             <p>To Build a Colaborative Community of Exceptional Artists, NFT Traders, Investors, Builders, Entrepreneurs and Educators that enable each other to make the most of Web3.0</p>
@@ -153,7 +153,7 @@ const App = ({ width }) => {
               </div>
             </a>
           </div>
-          <img src="https://imagedelivery.net/ml6iqrdpce69WkTk_gvNdQ/907bad7e-8e6e-4599-5573-3f4234faf400/public" />
+          <img className="container-call-img" src="https://imagedelivery.net/ml6iqrdpce69WkTk_gvNdQ/907bad7e-8e6e-4599-5573-3f4234faf400/public" />
         </div>
       </div>
       <div className='benefits'>
