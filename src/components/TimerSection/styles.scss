@@ -1,0 +1,85 @@
+
+.appcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .main-container-img {
+    width: 100%;
+    height: 950px;
+  }
+  
+  .app-container {
+    position: absolute;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 700px;
+  }
+
+
+.apptimersection {
+    background: url('https://imagedelivery.net/ml6iqrdpce69WkTk_gvNdQ/73a786f8-06ad-48b8-b72a-3610aa3f2600/public') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    top: -100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .intro-panes {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    min-width: 730px;
+    margin-bottom: 120px;
+  
+    img {
+      width: 300px;
+      height: auto;
+    }
+  }
+  
+  .timer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    h3 {
+      text-align: center;
+    }
+  
+    span {
+      font-size: 46px;
+      letter-spacing: 5px;
+      font-weight: bold;
+      color: #b700f0;
+    }
+  }
+  
+  .timer-header {
+    letter-spacing: 0.5px;
+  }
+  
+
+
+  @media screen and (max-device-width: 900px) {
+    .intro-panes {
+      min-width: 430px;
+    
+      img {
+        width: 200px;
+        height: auto;
+      }
+    }
+  }
