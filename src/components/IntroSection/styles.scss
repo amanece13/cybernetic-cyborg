@@ -92,3 +92,10 @@
       }
     }
   }
+
+  @media only screen 
+  and (max-device-width: 480px) {
+    .intro-calling-section {
+      height: 340px;
+    }
+  }

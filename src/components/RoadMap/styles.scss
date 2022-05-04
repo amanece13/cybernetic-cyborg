@@ -115,6 +115,13 @@ and (max-device-width: 568px) {
   }
 
   .growing-community {
+    h1 {
+      width: 90%;
+      margin: 0 auto;
+      font-size: 28px;
+      line-height: 36px;
+    }
+
     p {
       width: 90%;
       margin: 12px auto 12px auto;

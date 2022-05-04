@@ -83,3 +83,14 @@
       }
     }
   }
+
+  @media screen and (max-device-width: 480px) {
+    .intro-panes {
+      min-width: 320px;
+    
+      img {
+        width: 130px;
+        height: auto;
+      }
+    }
+  }
