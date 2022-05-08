@@ -48,7 +48,7 @@
     }
   
     h2 {
-      color: #800ab9;
+      color: #9800f3;
       font-size: 48px;
       font-weight: bold;
       line-height: 60px;
@@ -101,6 +101,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
+        :nth-child(3) {
+          height: 355px;
+        }
       }
     }
   }

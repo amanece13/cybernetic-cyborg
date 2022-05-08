@@ -75,7 +75,16 @@
         top: 12px;
         left: 50%;
         transform: translate(-50%, 0);
+        &.left {
+          left: 40%;
+        }
+        &.right {
+          left: 63%;
+          width: 95px !important;
+        }
       }
+
+      
 
       .our-calling {
         height: 170px;

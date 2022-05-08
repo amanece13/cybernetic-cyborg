@@ -28,7 +28,7 @@ const presaleData = [{
         <div className='header-section'>
           <img src="https://imagedelivery.net/ml6iqrdpce69WkTk_gvNdQ/4423c5a9-c0a6-4dd5-f539-94bd1f8a8f00/public" />
           <h1>And That’s Not All...</h1>
-          <h2>Early Members Get Access To Exciting Pre-Sale Ofers</h2>
+          <h2>Early Members Get Access To Exciting Pre-Sale Offers</h2>
         </div>
         <div className='pre-sale-section'>
           {presaleData.map((pred, index) => (
