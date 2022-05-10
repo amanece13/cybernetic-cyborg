@@ -42,7 +42,11 @@ const roadMapData = [{
             src={'https://imagedelivery.net/ml6iqrdpce69WkTk_gvNdQ/276968c5-c00b-489f-393f-f31c70363a00/public'}
             className={'cy-logo-bottom'}
           />
-        <p className='footer-text'>Copyright. 2022. Cybernetic Cyborg. All rights reserved.</p>
+        <div className='footer-text'>
+          <p>Copyright. 2022. Cybernetic Cyborg. All rights reserved.</p>
+          <p>Disclaimer: This website is not part of facebook, google, twitter. Additionally,
+            this site is not endorsed by facebook, google, twitter, in any way.</p>
+        </div>
       </div>
   )
 }

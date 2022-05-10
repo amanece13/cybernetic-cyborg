@@ -77,7 +77,6 @@
     border-radius: 16px;
     padding: 8px 16px;
     margin-top: 16px;
-    max-width: 260px;
   
     img {
       height: 16px;
@@ -116,7 +115,7 @@
     }
 
     .company-tag {
-      font-size: 56px;
+      font-size: 52px;
       line-height: 56px;
       margin-top: 20px;
     }
@@ -129,9 +128,10 @@
 @media only screen 
   and (max-device-width: 480px) { 
     .intro-head {
-      font-size: 11px;
+      font-size: 13px;
       width: 90%;
       margin: 0 auto;
+      font-weight: 500;
     }
 
     .headline {
